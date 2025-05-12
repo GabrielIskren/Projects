@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #8EC5FC, #E0C3FC); /* Gradiente roxo-azul claro */
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+
+header{
+    text-align: justify;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.2); /* Fundo translúcido */
+    backdrop-filter: blur(10px);          /* Efeito vidro */
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 2%;
+    text-align: center;
+}
+
+header:hover{
+    background-color: rgb(234, 255, 248);
+}
+
+main{
+    margin: 20px;
+    padding: 2%;
+    background: linear-gradient(135deg, #8EC5FC, #E0C3FC); /* Gradiente roxo-azul claro */
+}
+
+section{
+    text-align: justify;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.2); /* Fundo translúcido */
+    backdrop-filter: blur(10px);          /* Efeito vidro */
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin-top: 10px;
+}
+
+section ul{
+    margin-top: 5%;
+     margin-bottom: 5%;
+}
+
+section:hover{
+    text-align: justify;
+    background-color: rgb(234, 255, 248);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    width: fit-content;        /* ou defina uma largura ex: 300px */
+    margin: 20px auto;         /* agora funciona! */
+}
+
+input{
+    padding: 10%;
+    text-align: center;
+}
+
+button {
+    padding: 1%;
+    margin: 20px auto;
+    display: block;
+}
+
+footer{
+    text-align: center;
+}

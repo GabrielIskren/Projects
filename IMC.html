@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="IMC.css">
+    <script src="IMC.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Vamos Calcular o Seu IMC</h1>
+        <p>mas antes, você sabe o que é IMC?</p>
+    </header>
+
+    <main>
+        <section id="texto_1">
+            <h2>
+                1. O Que é IMC?
+            </h2>
+            <p>   
+                O IMC, ou Índice de Massa Corporal, é uma medida usada para avaliar se uma pessoa está dentro do peso ideal em relação à sua altura. É uma ferramenta simples que ajuda a identificar possíveis problemas de saúde relacionados ao peso, como obesidade ou desnutrição. Embora não leve em  conta fatores como idade, sexo ou composição corporal, o IMC é amplamente utilizado por profissionais de saúde como uma referência inicial.
+            </p>
+        </section>
+        <br><br><br>
+
+        <section id="texto_2">
+            <h2>
+                2. Como é Calculado o IMC?
+            </h2>
+            <p>
+                O cálculo do IMC é bem simples e pode ser feito com a seguinte fórmula:
+
+                <ul>IMC = Peso (kg) ÷ (Altura (m) × Altura (m))</ul>
+
+                <ul>Ou, de forma ainda mais direta:</ul>
+
+                <ul>IMC = Peso ÷ (Altura × Altura)</ul>
+
+                <ul>
+                    Exemplo:
+                    Se uma pessoa pesa 70 kg e mede 1,75 m:
+                    IMC = 70 ÷ (1,75 × 1,75) = 70 ÷ 3,06 ≈ 22,9
+                </ul>
+            </p>
+        </section>
+        <br><br><br>
+
+        <section id="texto_3">
+            <h2>
+                3. Como Interpretar o Resultado
+            </h2>
+            <p>
+                Depois de calcular o IMC, o resultado se encaixa em uma das faixas abaixo:
+
+                <ul>abaixo de 18,5 – Abaixo do peso</ul> 
+
+                <ul>18,5 a 24,9 – Peso normal</ul>
+
+                <ul>25 a 29,9 – Sobrepeso</ul>
+
+                <ul>30 a 34,9 – Obesidade grau I</ul>
+
+                <ul>35 a 39,9 – Obesidade grau II</ul>
+
+                <ul>Acima de 40 – Obesidade grau III (mórbida)</ul>
+
+                Essas faixas ajudam a indicar o nível de risco para a saúde, mas é sempre importante consultar um profissional de saúde para uma avaliação completa.
+            </p>
+        </section>
+        <br><br><br>
+
+        <section>
+            <h2 style="text-align: center;">Agora vamos Calcular o Seu IMC</h2>
+            <p style="text-align: center;">Por favor, informe as seguintes informações:</p>
+            <br>
+
+            <label for="peso">Seu Peso (Em Kilos):
+                <input type="number" id="peso" placeholder="70 por exemplo">
+            </label>
+
+            <label for="Altura">Sua altura (Em Metros):
+                <input type="number" id="altura" placeholder="1,75 por exemplo">
+            </label>
+            <br>
+
+            <p id="res_IMC" style="text-align: center;"></p>
+
+            <button onclick="calcular()">Calcular</button>
+            <br><br><br>
+
+            
+            <br><br><br>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
